@@ -1,4 +1,4 @@
-Ohjelman lähdekoodi löytyy kahdesta tiedostosta pääohjelmasta epidemic.f90 ja moduulista satunnaismod.f90. Nämä kaksi täytyy linkittää toisiinsa, jotta saadaan toimiva tiedosto. Kansiossa löytyy myös Python-tiedosto, jolla luodaan sairastietojen kuvaaja. Tässä on myös raportti pdf-tiedostona nimellä report.pdf. Tämä raportti käsittelee ohjeman koodia ja raportissa käsitellään ohjelman avulla saatua dataa. Ohjelman voi kääntää linkittää ja suorittaa seuraavalla komennolla:
+Tieteellinen laskenta II -kurssin lopputyön lähdekoodi löytyy kahdesta tiedostosta pääohjelmasta epidemic.f90 ja moduulista satunnaismod.f90. Nämä kaksi täytyy linkittää toisiinsa, jotta saadaan toimiva tiedosto. Kansiossa löytyy myös Python-tiedosto, jolla luodaan sairastietojen kuvaaja. Tässä on myös raportti pdf-tiedostona nimellä report.pdf. Tämä raportti käsittelee ohjeman koodia ja raportissa käsitellään ohjelman avulla saatua dataa. Ohjelman voi kääntää linkittää ja suorittaa seuraavalla komennolla:
 
 gfortran -c satunnaismod.f90 && gfortran -c epidemic.f90 && gfortran epidemic.o satunnaismod.o && ./a.out
 
